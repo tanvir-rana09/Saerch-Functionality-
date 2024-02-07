@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- css link  -->
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <div class="search-section">
+    <input type="search" name="search" id="search">
+    <button id="searchbtn" type="submit">Search</button>
+  </div>
+  <div class="filterbtn">
+    <button type="submit" class="filter" onclick="filterProduct('all')">All</button>
+    <button type="submit" class="filter" onclick="filterProduct('cap')">Cap</button>
+    <button type="submit" class="filter" onclick="filterProduct('shirt')">Shirt</button>
+    <button type="submit" class="filter" onclick="filterProduct('jacket')">Jacket</button>
+    <button type="submit" class="filter" onclick="filterProduct('shoe')">Shoe</button>
+    <button type="submit" class="filter" onclick="filterProduct('watch')">Watch</button>
+  </div>
+  <div class="products">
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
